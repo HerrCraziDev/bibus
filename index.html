@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Horaires Bibus</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="mobile.css">
+
+        <!--script src="mlg.js" charset="utf-8"></script-->
+        <script src="bibus.js" charset="utf-8"></script>
+        <script src="realtime-update.js" charset="utf-8"></script>
+    </head>
+    <body id="body">
+        <header>
+            <img id="logo-bibus" src="/ressources/logo_bibus" alt="">
+            <h1>🚍 MyLittleBibus v0.1.0 🚍</h1>
+            <span>Nous sommes à la recherche d'un nom pour ce projet. Tout investisseur est prié de se présenter avec son n° de carte bancaire au service Propagande, merci d'avance. --Le Service Sans Nom</span>
+        </header>
+
+        <section>
+          <ul class="lines">
+            <li>
+              <h2 class="line-sign" id="line-6">Ligne 6</h2>
+
+              <div class="line-info">
+
+                <div>
+                  <em class="line-dest">vers <b>Fort Montbarey</b></em>
+                  <p class="hour" id="dir-fort-montbarey">...</p>
+                </div>
+
+                <div class="separator"></div>
+
+                <div>
+                  <em class="line-dest">vers <b>Clinique Keraudren</b></em>
+                  <p class="hour" id="dir-keraudren">...</p>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <h2 class="line-sign" id="line-3">Ligne 3</h2>
+
+              <div class="line-info">
+
+                <div>
+                  <em class="line-dest">vers <b>Lambézellec</b></em>
+                  <p class="hour" id="dir-lambezellec">...</p>
+                </div>
+
+                <div class="separator"></div>
+
+                <div>
+                  <em class="line-dest">vers <b>Océanopolis</b></em>
+                  <p class="hour" id="dir-oceanopolis">...</p>
+                </div>
+
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <footer>
+            <span class="centered" id="version"></span>
+        </footer>
+    </body>
+</html>
