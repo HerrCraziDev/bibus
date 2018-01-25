@@ -1,0 +1,20 @@
+{
+  "name": "node-cli",
+  "version": "0.1.0",
+  "description": "A command-line interface (CLI) using NodeJS to get schedules and planned times in the Brest's Bibus bus network.",
+  "main": "node-cli.js",
+  "scripts": {
+    "test": "run"
+  },
+  "keywords": [
+    "cli",
+    "bibus",
+    "bus",
+    "time"
+  ],
+  "author": "Gwenolé LeroyFerrec - Club Elec ISEN BREST",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
