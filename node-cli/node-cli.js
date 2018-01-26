@@ -63,6 +63,5 @@ bibus.getVersion( (res) => {
 	console.log('Version : ' + res.json['Number']);
 });
 
-bibus.getStop('Fort_Montbarey', (res) => {
-	console.log(res.json);
-})
+
+//todo : everything
